@@ -1,4 +1,4 @@
-com/example/ExerciseClass.class
-com/example/Calculator.class
-com/example/App.class
-com/example/User.class
+com/junit/Calculator.class
+com/junit/App.class
+com/junit/User.class
+com/junit/ExerciseClass.class
