@@ -26,4 +26,12 @@ public class User {
     }
     return seconds;
   }
+
+  public boolean isLoggedIn() {
+    return true;
+  }
+
+  public boolean canPublish() {
+    return true;
+  }
 }

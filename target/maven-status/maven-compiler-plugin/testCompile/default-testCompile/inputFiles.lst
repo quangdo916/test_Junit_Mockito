@@ -4,4 +4,8 @@
 /Users/quangdo/Desktop/test_Junit_Mockito/src/test/java/com/junit/DynamicAndParameterizedTests.java
 /Users/quangdo/Desktop/test_Junit_Mockito/src/test/java/com/junit/ExerciseTest.java
 /Users/quangdo/Desktop/test_Junit_Mockito/src/test/java/com/junit/Overview.java
+/Users/quangdo/Desktop/test_Junit_Mockito/src/test/java/com/mockito/CapturingArgument.java
+/Users/quangdo/Desktop/test_Junit_Mockito/src/test/java/com/mockito/DependencyInjectionMockito.java
+/Users/quangdo/Desktop/test_Junit_Mockito/src/test/java/com/mockito/MockitoVerifyTest.java
+/Users/quangdo/Desktop/test_Junit_Mockito/src/test/java/com/mockito/ServiceDatabaseIdTest.java
 /Users/quangdo/Desktop/test_Junit_Mockito/src/test/java/com/mockito/ServiceTest.java

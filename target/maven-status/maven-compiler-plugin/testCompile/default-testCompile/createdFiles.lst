@@ -1,8 +1,12 @@
+com/mockito/CapturingArgument.class
+com/mockito/Overview.class
 com/junit/AssertionsAndAssumptions.class
+com/mockito/ConfigureReturnValueMock.class
 com/junit/ExerciseTest.class
 com/junit/AppTest.class
 com/junit/DynamicAndParameterizedTests.class
 com/junit/Overview.class
+com/mockito/DependencyInjectionMockito.class
 com/junit/AdditionalTest.class
 com/junit/DynamicAndParameterizedTests$ToOctalStringArgumentConverter.class
-com/mockito/ServiceTest.class
+com/mockito/MockitoVerifyTest.class

@@ -1,6 +1,7 @@
 com/junit/Calculator.class
 com/mockito/Database.class
 com/junit/App.class
-com/junit/User.class
 com/junit/ExerciseClass.class
+com/junit/User.class
 com/mockito/Service.class
+com/mockito/ArticleManager.class
