@@ -10,7 +10,7 @@ public class User {
     this.age = age;
   }
 
-  public void doBackup(int seconds){
+  public void doBackup(int seconds) {
     try {
       Thread.sleep(seconds * 1000L);
     } catch (InterruptedException e) {
@@ -18,7 +18,7 @@ public class User {
     }
   }
 
-  public int doBackUpWithResult(int seconds){
+  public int doBackUpWithResult(int seconds) {
     try {
       Thread.sleep(seconds * 1000L);
     } catch (InterruptedException e) {

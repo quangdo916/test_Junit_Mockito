@@ -1,3 +1,7 @@
+com/example/Overview.class
+com/example/DynamicAndParameterizedTests$ToOctalStringArgumentConverter.class
+com/example/AssertionsAndAssumptions.class
+com/example/ExerciseTest.class
 com/example/AppTest.class
-com/example/UserTest.class
-com/example/CalculatorTest.class
+com/example/DynamicAndParameterizedTests.class
+com/example/AdditionalTest.class

@@ -7,7 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
-class CalculatorTest {
+class Overview {
   Calculator calculator;
 
   @BeforeEach
@@ -15,12 +15,14 @@ class CalculatorTest {
     calculator = new Calculator();
   }
 
+  // Standard test
   @Test
   @DisplayName("Multiplication test")
   public void testMultiply() {
     assertEquals(50, calculator.multiply(10, 5), "10 * 5 must be 50");
   }
 
+  // Exception test
   @Test
   @DisplayName("Exception test")
   public void exceptionTesting() {
@@ -28,6 +30,7 @@ class CalculatorTest {
     assertEquals("/ by zero", exception.getMessage());
   }
 
+  // Group test
   @Test
   public void groupAssertion() {
     assertAll(
@@ -36,6 +39,7 @@ class CalculatorTest {
         () -> assertThrows(ArithmeticException.class, () -> calculator.division(10, 0)));
   }
 
+  // Repeated test
   @RepeatedTest(5)
   @DisplayName("Repeated multiplication test")
   public void testMultiplyRepeated() {

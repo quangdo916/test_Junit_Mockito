@@ -1,16 +1,15 @@
 package com.example;
 
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.time.Duration;
 import lombok.Data;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-import java.time.Duration;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 @Data
-public class UserTest {
+public class AssertionsAndAssumptions {
   User user;
 
   @BeforeEach
@@ -18,6 +17,7 @@ public class UserTest {
     user = new User();
   }
 
+  // Disable test
   @Disabled
   @Test
   void testSetAge() {
@@ -28,15 +28,17 @@ public class UserTest {
         });
   }
 
+  // Timeout test
   @Disabled
   @Test
-  void testDoBackupTimeout(){
+  void testDoBackupTimeout() {
     assertTimeout(Duration.ofSeconds(5), () -> user.doBackup(3));
   }
 
+  // Timeout with result test
   @Disabled
   @Test
-  void testDoBackupTimeoutWithResult(){
+  void testDoBackupTimeoutWithResult() {
     int result = assertTimeout(Duration.ofSeconds(5), () -> user.doBackUpWithResult(3));
     assertEquals(3, result);
   }
