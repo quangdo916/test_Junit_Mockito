@@ -5,3 +5,4 @@ com/junit/DynamicAndParameterizedTests.class
 com/junit/Overview.class
 com/junit/AdditionalTest.class
 com/junit/DynamicAndParameterizedTests$ToOctalStringArgumentConverter.class
+com/mockito/ServiceTest.class
